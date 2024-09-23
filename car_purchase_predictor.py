@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-dataset = pd.read_csv("C:/Users/hacho/Downloads/Machine-Learning/Logistic-Regression-Classification/Social_Network_Ads.csv")
+dataset = pd.read_csv("Purchasing_Data.csv")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
